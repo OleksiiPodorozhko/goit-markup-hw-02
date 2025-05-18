@@ -58,7 +58,8 @@ button {
     letter-spacing: 0.02em;
 }
 
-.address-list-item:hover {
+.address-list-item:hover,
+.address-list-item:focus {
     color: #404bbf;
 }
 /*#endregion*/
@@ -86,7 +87,8 @@ button {
     color: #FFFFFF;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background: #404bbf;
 }
 /*endregion*/
@@ -195,6 +197,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-colored {
