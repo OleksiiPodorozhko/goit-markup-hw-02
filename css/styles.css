@@ -47,6 +47,10 @@ button {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-list-item {
     font-weight: 400;
     font-size: 16px;
@@ -57,7 +61,6 @@ button {
 .address-list-item:hover {
     color: #404bbf;
 }
-
 /*#endregion*/
 
 /*#region Hero*/
@@ -117,9 +120,14 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.our-team-item-title {
+.team-member-card {
+    background-color: #ffffff;
+}
+
+.team-member-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -128,7 +136,7 @@ button {
     color: #2e2f42;
 }
 
-.our-team-item-text {
+.team-member-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -145,9 +153,29 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .our-portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-card {
+    background-color: #ffffff;
+}
+
+.portfolio-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
