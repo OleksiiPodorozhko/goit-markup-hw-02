@@ -23,14 +23,14 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-colored {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .nav-list-item {
@@ -41,12 +41,23 @@ button {
     color: #2e2f42;
 }
 
+.nav-list-item:hover,
+.nav-list-item:focus,
+.nav-list-item:active {
+    color: #404bbf;
+}
+
 .address-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.address-list-item:hover {
+    color: #404bbf;
+}
+
 /*#endregion*/
 
 /*#region Hero*/
@@ -70,6 +81,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+
+.hero-btn:hover {
+    background: #404bbf;
 }
 /*endregion*/
 
@@ -148,14 +163,14 @@ button {
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-logo-colored {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
